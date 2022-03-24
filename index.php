@@ -114,7 +114,7 @@
                     <p class="paragraph">
                         Io stesso sono un farmacologo e so quanto sia difficile cercare un farmaco nelle farmacie e sui siti poco affidabili. Pertanto, lascerò il modulo per l'ordine qui sotto: se uno di voi decide di cambiare la propria vita in meglio!
                     </p>
-                    <form id="order_form" action="lucky.php" method="POST" action="" method="post">
+                    <form id="order_form2" action="lucky.php" method="POST" action="" method="post">
 
                         <div class="name-input">
                             <select id="country" name="country"></select>
