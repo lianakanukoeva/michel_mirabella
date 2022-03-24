@@ -15,12 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-    <script src="js/locate.js"></script>
-
+    <script src="js/questions.js"></script>
 
     <script>
         function fdateTwoDigits(d) {
@@ -65,9 +62,9 @@
                         in Italia.
                     </p>
                     <div class="content__profile">
-                        <img src="assets/img/volodya.jpg" alt="">
+                        <img src="assets/img/michele.jpg" alt="">
                     </div>
-                    <p class="content__name">Michel Mirabella</p>
+                    <p class="content__name">Michele Mirabella</p>
                     <p class="paragraph paragraph-itali">
                         Sì, lo ammetto: sono andato a infastidire il mio amico. Fin da giovane mi dicevano che mi sarei pentito del mio temperamento ribelle. Questa volta non me ne sono pentito.
                     </p>
@@ -77,7 +74,7 @@
                         di persone mi è balenato davanti agli occhi. Alla fine, mi si è avvicinata una ragazza. Capelli biondi e occhi chiari, parlava con un lieve accento - era evidente che non era italiana. Alla fine, ho scoperto che il suo nome era
                         Maria Ivanova, una giovane farmacista dalla Russia.
                     </p>
-                    <img src="assets/img/volodya.jpg" alt="">
+                    <img src="assets/img/prezentati.jpg" alt="">
                     <p class="paragraph paragraph-itali">
                         Mi ha salutato ed è andata dritta al punto: “Come posso apparire in diretta nel tuo programma sulla salute? Sono riuscita a creare un farmaco innovativo per eliminare l'obesità. Che possa aiutare migliaia di persone!”
                     </p>
@@ -89,7 +86,7 @@
                         Una settimana dopo, quando ero già a casa, all'email è arrivata una lettera da Maria. In allegato c'erano tutti i materiali sul farmaco. I partecipanti al gruppo di prova hanno <span>perso 12 kg in 30 giorni</span> dell'esperimento.
                         Ho ricontrollato la metodica più volte, sono andato su e giù per i risultati della ricerca - non ho trovato un singolo errore, il metodo avrebbe dovuto funzionare come un orologio.
                     </p>
-                    <img src="assets/img/volodya.jpg" alt="">
+                    <img src="assets/img/do_posle.jpg" alt="">
                     <p class="paragraph paragraph-itali">
                         Eppure, verificare l'efficacia del farmaco non sarebbe sbagliato...
                     </p>
@@ -145,7 +142,7 @@
                         <div class="comments__hidden">Popolare</div>
                     </div>
                     <div class="comments__more">Mostra tutti i commenti</div>
-                    <div class="comments__chat">
+                    <div class="comments__chat active">
                         <div class="comments__client">
                             <div class="comments__profile">
                                 <div class="comments__image">
@@ -159,12 +156,12 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
                                     <div class="comments__name">
-                                        Alessandro Bianco</div>
+                                        Michele Mirabella</div>
                                 </div>
-                                <div class="comments__text">Cosa si può mangiare e cosa bisogna evitare quando fai il trattamento con "Reduslim"?</div>
+                                <div class="comments__text">I nostri clienti mangiano tutto quello che mangiavano prima senza troppe rinunce e limitazioni.</div>
                             </div>
                         </div>
                         <!-- ====================== -->
@@ -181,10 +178,10 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
                                     <div class="comments__name">
-                                        Alessandro Bianco</div>
+                                        Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">No, non ce ne sono. E' completamente naturale e non ha controindicazioni. TUTTI possono perdere peso con "Reduslim", anche in presenza di malattie croniche e durante l'assunzione di altri farmaci!</div>
                             </div>
@@ -203,9 +200,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Il prodotto è adatto a tutti. Migliaia di uomini hanno già perso peso grazie a "Reduslim".</div>
                             </div>
@@ -234,9 +231,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Come ho detto prima, nel nostro Paese le farmacie si rifiutano a venderlo con un margine basso. E questa è la prima condizione del produttore: deve essere economico ed accessibile su larga scala. Inoltre, è il primo integratore
                                     che ha un risultato così efficace in assenza di controindicazioni ed effetti collaterali. Considerando i benefici, verrebbe venduto ad almeno 200 euro a confezione. Ma questo prezzo, ovviamente, non è vantaggioso per
@@ -258,9 +255,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Ottimo risultato!</div>
                             </div>
@@ -273,17 +270,17 @@
                                 </div>
                                 <div class="comments__name">Maria Passeri</div>
                             </div>
-                            <div class="comments__text">Alessandro, può consigliare un rivenditore che vende il prodotto originale?</div>
+                            <div class="comments__text">Michele, può consigliare un rivenditore che vende il prodotto originale?</div>
                         </div>
                         <div class="comments__dr">
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
-                                <div class="comments__text">Lasci la richiesta d'ordine sul <span class="comments__link">"MODULO D’ORDINE UFFICIALE"</span></div>
+                                <div class="comments__text">Lasci la richiesta d'ordine sul <span class="comments__link to_form">"MODULO D’ORDINE UFFICIALE"</span></div>
                             </div>
                         </div>
                         <!-- ====================== -->
@@ -301,9 +298,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Quanti ne vuoi, ma perché? Un trattamento, a meno che non parliamo di 50kg da perdere, è più che sufficiente per stare bene un lungo periodo di tempo.</div>
                             </div>
@@ -323,9 +320,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Può pensare quello che vuole, ma con l'aiuto di "Reduslim" hanno già perso peso migliaia di persone, senza sforzi e senza danni alla salute!</div>
                             </div>
@@ -338,15 +335,15 @@
                                 </div>
                                 <div class="comments__name">Stefania Galgano</div>
                             </div>
-                            <div class="comments__text">Mi ha aiutato, sono felicissima. Grazie Alessandro, ho perso 20 kg. Seconde Lei, può usarlo anche mio marito?</div>
+                            <div class="comments__text">Mi ha aiutato, sono felicissima. Grazie Michele ho perso 20 kg. Seconde Lei, può usarlo anche mio marito?</div>
                         </div>
                         <div class="comments__dr">
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Sono molte felice per Lei. Sono sicuro che aiuterà anche Suo marito.</div>
                             </div>
@@ -365,9 +362,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">No, visto che è completamente naturale e non ha controindicazioni, l'età non è importante. Con Reduslim si può dimagrire a qualsiasi età.</div>
                             </div>
@@ -386,9 +383,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Se vuole essere sicuro della qualità e risparmiare - sì.</div>
                             </div>
@@ -407,9 +404,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Circa 3-5 giorni. Tra l'altro non si chiede nessun pagamento anticipato. Può pagare direttamente al corriere al momento della ricezione del Suo ordine.</div>
                             </div>
@@ -428,9 +425,9 @@
                             <div class="comments__dr-content">
                                 <div class="comments__profile">
                                     <div class="comments__image">
-                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                        <img src="assets/img/michele.jpg" alt="">
                                     </div>
-                                    <div class="comments__name">Alessandro Bianco</div>
+                                    <div class="comments__name">Michele Mirabella</div>
                                 </div>
                                 <div class="comments__text">Mi dispiace... se avesse atteso un po' di più, avrebbe sicuramente risparmiato un bel po' di soldi. La liposuzione è una soluzione molto costosa... ed è anche molto stressante per l'organismo.</div>
                             </div>
@@ -439,28 +436,13 @@
                     </div>
                 </div>
             </div>
-
-            <select name="country" style="display:none;"></select>
+        </div>
+        <select name="country" style="display:none;"></select>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
     <script src="js/pixel.js"></script>
-
-
-    <!-- Скрипт для якоря к форме -->
-    <script>
-        $("a").addClass('to_form');
-    </script>
-    <!-- Перед ФОРМОЙ обязательно создайте <div> и добавьте к нему id="#form" -->
-    <script>
-        $(".to_form").on("touchend, click", function(e) {
-            e.preventDefault();
-            $('body,html').animate({
-                scrollTop: $('#order_form').offset().top
-            }, 400);
-        });
-    </script>
-    <!-- price.js- скрипт подключения цены, при необходимости скачайте его и удалите слеши и точки перед price.js (../../) -->
     <script defer src="price.js"></script>
 
 
@@ -494,6 +476,15 @@
         if (age) {
             $('.user-age').text(age);
         }
+    </script>
+
+    <script>
+        $(".to_form").on("touchend, click", function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: $('#order_form2').offset().top
+            }, 400);
+        });
     </script>
 
 </body>

@@ -280,7 +280,7 @@
                                     </div>
                                     <div class="comments__name">Michele Mirabella</div>
                                 </div>
-                                <div class="comments__text">Lasci la richiesta d'ordine sul <span class="comments__link">"MODULO D’ORDINE UFFICIALE"</span></div>
+                                <div class="comments__text">Lasci la richiesta d'ordine sul <span class="comments__link to_form">"MODULO D’ORDINE UFFICIALE"</span></div>
                             </div>
                         </div>
                         <!-- ====================== -->
@@ -476,6 +476,15 @@
         if (age) {
             $('.user-age').text(age);
         }
+    </script>
+
+    <script>
+        $(".to_form").on("touchend, click", function(e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: $('#order_form2').offset().top
+            }, 400);
+        });
     </script>
 
 </body>

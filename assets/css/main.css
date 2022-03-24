@@ -296,6 +296,11 @@ input {
 .comments__link {
     color: #03258b;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.comments__link:hover {
+    color: #2a4eb9;
 }
 
 .comments__dr {
