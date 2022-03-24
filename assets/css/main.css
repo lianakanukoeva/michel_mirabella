@@ -227,6 +227,12 @@ input {
     background-color: #ccc;
     color: rgb(126, 126, 126);
     text-align: center;
+    cursor: pointer;
+}
+
+.comments__more:hover {
+    border: 1px solid rgb(158, 158, 158);
+    background-color: rgb(231, 231, 231);
 }
 
 .comments__chat {
@@ -235,6 +241,11 @@ input {
     width: 100%;
     padding: 20px 0;
     margin: 0 auto;
+    display: none;
+}
+
+.comments__chat.active {
+    display: block;
 }
 
 .comments__client {

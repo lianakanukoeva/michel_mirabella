@@ -1,5 +1,5 @@
 $(function() {
-    $(".js-next").on("click", function() {
-        $(".step.active").removeClass("active").next().addClass("active");
-     });
+    $(".comments__more").click(function() {
+        $(".comments__chat").toggleClass('active');
+    });
 });
