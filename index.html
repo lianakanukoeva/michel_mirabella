@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Notizie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://cdn-bimi.akamaized.net/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/generator.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script src="js/locate.js"></script>
+
+
+    <script>
+        function fdateTwoDigits(d) {
+            let now = new Date();
+            now.setDate(now.getDate() + d);
+            let mm = now.getMonth() + 1;
+            let day = now.getDate();
+            if (now.getDate() < 10) day = '0' + now.getDate();
+            if (mm < 10) mm = '0' + mm;
+            document.write(" " + day + "." + mm + "." + now.getFullYear() + " ");
+        }
+    </script>
+
+</head>
+
+
+<body class="dark-blue body-white-back is-desktop" style="overflow: visible; margin-right: 0px;">
+    <script src="counter.js"></script>
+
+    <div class="wrapper">
+        <header class="header-content">
+            <div class="logo">
+                <span class="logo__menu">
+                    <div class="logo-menu top"></div>
+                    <div class="logo-menu moddle"></div>
+                    <div class="logo-menu bottom"></div>
+                </span>
+                <span class="logo__name">Notizie</span>
+            </div>
+            <div class="buttons">
+                <img src="assets/img/user.png" alt="">
+                <img src="assets/img/search.png" alt="">
+            </div>
+        </header>
+        <div class="content">
+            <h1 class="title">Я внес свой вклад в помощь людям с лишним весом - и я горжусь им!</h1>
+            <div class="content__info">
+                <div class="content__text">
+                    <p class="paragraph">
+                        Плевал я на всех, кто говорит, что в моем возрасте нужно сидеть дома! «Мишель, угомонись!» - если бы я получал по одному евро каждый раз, когда слышу эту фразу… Вот и в тот раз, пару лет назад, я услышал ее от друга. Он шутя сказал, что «нам, старикам,
+                        лучше оставаться дома», и меня это задело. «Ты, если хочешь, сиди хоть до второго пришествия! Мне это не подходит». Так я сорвался и уехал… на съезд эндокринологов Италии.
+                    </p>
+                    <div class="content__profile">
+                        <img src="assets/img/volodya.jpg" alt="">
+                    </div>
+                    <p class="content__name">Michel Mirabella</p>
+                    <p class="paragraph paragraph-itali">
+                        Да, признаю: я поехал, чтобы насолить другу. Мне с юности говорили, что я пожалею о своем буйном характере. В этот раз я не пожалел.
+                    </p>
+                    <p class="paragraph">
+                        Итак, я приехал. Заселился в отель. Позвонил организаторам и предупредил, что появлюсь на съезде. Выслушал неуверенное «Да, мы вас ждем», что на человеческом языке означало «Что он тут забыл?». На самом съезде я произвел фурор: кажется, каждый второй
+                        спросил меня, что я тут делаю. За вечер со мной поговорило очень много людей. Мы обсуждали медицину, мою передачу, кинематограф… Перед моими глазами пронесся целый калейдоскоп людей. Наконец, ко мне подошла девушка. Светлые волосы
+                        и глаза, говорит с легким акцентом - было понятно, что она не итальянка. Оказалось, что ее звали Мария Иванова - молодая фармацевт из России.
+                    </p>
+                    <img src="assets/img/volodya.jpg" alt="">
+                    <p class="paragraph paragraph-itali">
+                        Она поздоровалась и перешла сразу к делу: «Как мне попасть в эфир вашей передачи о здоровье? Мне удалось создать инновационный препарат для борьбы с ожирением. Он поможет тысячам людей!»
+                    </p>
+                    <p class="paragraph">
+                        Не знаю, почему я тогда дал ей адрес своей почты. Наверное, ностальгировал. Вспомнил, как сам только закончил факультет фармакологии, мечтал изменить мир, найти лекарство от всех болезней… К вечеру я уже забыл этот разговор.
+                    </p>
+                    <p class="paragraph">
+                        Через неделю, когда я уже был дома, на мою почту пришло письмо от Марии. Во вложении были все материалы по препарату. Участники испытательной группы потеряли <span>по 12 кг за 30 дней</span> эксперимента. Я перепроверил методику
+                        несколько раз, прошел вдоль и поперек по результатам исследований - ни единой ошибки, метод должен был работать, как часы.
+                    </p>
+                    <img src="assets/img/volodya.jpg" alt="">
+                    <p class="paragraph paragraph-itali">
+                        И все же, убедиться в действенности препарата не помешает…
+                    </p>
+                    <p class="paragraph">
+                        Я хотел поучаствовать в этом проекте. Мы заказали небольшую партию и провели еще одно исследование, на более широкой группе - 1000 добровольцев с лишним весом согласились нам помочь. <span>Результаты остались неизменны: у 97% испытуемых потеря веса составила 12,5 кг.</span>
+                    </p>
+                    <p class="paragraph">
+                        Нам понадобилось время, чтобы препарат прошел все этапы регистрации. Мы даже получили государственные субсидии, чтобы временно снизить цену препарата. Так в свет вышел «Reduslim».
+                    </p>
+                    <img src="assets/img/thank-pack.png" alt="">
+                    <p class="paragraph paragraph-itali">
+                        Первая партия ушла в руки самых близких. Мы получили первые отзывы - и ни одного негативного.
+                    </p>
+                    <p class="paragraph">
+                        Изначально, мы планировали целую рекламную кампанию, с ТВ и интернетом. Этого не понадобилось: отзывы в сети и сарафанное радио работали лучше всяких реклам. Месяц назад мы достигли новых высот: была налажена поставка препарата за пределы Италии. Правда,
+                        на родине сейчас временный дефицит товара, но мы исправим ситуацию, я обещаю!
+                    </p>
+                    <p class="paragraph">
+                        Конечно, на поставку в другие страны мы тратим больше денег, чем на продажи «от конвейера». Поэтому для стран экспорта цена препарата выше - 99 евро. В Италии цена пока что прежняя - 38 евро, из-за государственных субсидий. Но если нам не удастся решить
+                        вопрос с дефицитом в ближайшие 2 недели, то цена поднимется.
+                    </p>
+                    <p class="paragraph">
+                        Я сам фармаколог и знаю, как тяжело искать препарат по аптекам и ненадежным сайтам. Поэтому ниже оставлю форму заказа - вдруг кто-то из вас решится изменить свою жизнь к лучшему!
+                    </p>
+                    <form id="order_form" action="lucky.php" method="POST" action="" method="post">
+
+                        <div class="name-input">
+                            <select id="country" name="country"></select>
+                        </div>
+
+                        <div class="name-input">
+                            <label for="name-input">Inserisci il tuo nome:</label>
+                            <input id="name-input" type="text" placeholder="nome" name="name" autocomplete="off" required="">
+                        </div>
+                        <div class="phone-input">
+                            <label for="phone-input">Il tuo numero di telefono:</label>
+                            <input id="phone-input" type="tel" placeholder="tel" name="phone" autocomplete="off" required="">
+                        </div>
+                        <input type='hidden' name='subid' value='{clickid}' />
+                        <input type='hidden' name='subid1' value='{clickid}' />
+                        <button type="submit" class="button-submit">
+                            <span class="button-submit-text">ORDINA CON SCONTO DEL 50%</span>
+                        </button>
+                    </form>
+                    <p class="paragraph paragraph-itali">
+                        За год мы оформили более 10 000 заказов. Это 10 000 счастливых людей!
+                    </p>
+                    <p class="paragraph questions">Вопросы и ответы?</p>
+                </div>
+                <div class="comments">
+                    <div class="comments__top">
+                        <div class="comments__count">Commenti: 14</div>
+                        <div class="comments__hidden">Popolare</div>
+                    </div>
+                    <div class="comments__more">Mostra tutti i commenti</div>
+                    <div class="comments__chat">
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm1.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Vittoria Serra</div>
+                            </div>
+                            <div class="comments__text">Cosa si può mangiare e cosa bisogna evitare quando fai il trattamento con "Reduslim"?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">
+                                        Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Cosa si può mangiare e cosa bisogna evitare quando fai il trattamento con "Reduslim"?</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm2.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Beatrice Guerra</div>
+                            </div>
+                            <div class="comments__text">Ci sono effetti collaterali o controindicazioni? Ho il diabete, ma devo perdere peso.</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">
+                                        Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">No, non ce ne sono. E' completamente naturale e non ha controindicazioni. TUTTI possono perdere peso con "Reduslim", anche in presenza di malattie croniche e durante l'assunzione di altri farmaci!</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm3.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Alessia Pirra</div>
+                            </div>
+                            <div class="comments__text">Questo prodotto è solo per le donne? Mio marito è in sovrappeso e ha un bel po' di grasso in eccesso, sopratutto sull'addome.</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Il prodotto è adatto a tutti. Migliaia di uomini hanno già perso peso grazie a "Reduslim".</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm4.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Lorena Pinna</div>
+                            </div>
+                            <div class="comments__text">Un risultato fantastico, non pensavo di poter perdere peso così velocemente. Devo continuare così!</div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm5.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Nicola Gambetta</div>
+                            </div>
+                            <div class="comments__text">Alessandro perché questo prodotto così miracoloso non si trova nelle farmacie?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Come ho detto prima, nel nostro Paese le farmacie si rifiutano a venderlo con un margine basso. E questa è la prima condizione del produttore: deve essere economico ed accessibile su larga scala. Inoltre, è il primo integratore
+                                    che ha un risultato così efficace in assenza di controindicazioni ed effetti collaterali. Considerando i benefici, verrebbe venduto ad almeno 200 euro a confezione. Ma questo prezzo, ovviamente, non è vantaggioso per
+                                    nessuno.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm6.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Antonella Marra</div>
+                            </div>
+                            <div class="comments__text">Ho usato "Reduslim" circa 1 anno fa per 3 mesi e ho perso in tutto 19 kg. Da quando ho finito il trattamento non ho più rimesso su nemmeno un kg.</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Ottimo risultato!</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm7.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Maria Passeri</div>
+                            </div>
+                            <div class="comments__text">Alessandro, può consigliare un rivenditore che vende il prodotto originale?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Lasci la richiesta d'ordine sul "MODULO D’ORDINE UFFICIALE"</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm8.jpg" alt="">
+                                </div>
+                                <div class="comments__name">
+                                    Vera Gherardi</div>
+                            </div>
+                            <div class="comments__text">Fino a quanti trattamenti di seguito posso fare?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Quanti ne vuoi, ma perché? Un trattamento, a meno che non parliamo di 50kg da perdere, è più che sufficiente per stare bene un lungo periodo di tempo.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm9.jpg" alt="">
+                                </div>
+                                <div class="comments__name">
+                                    Anna Verzillo</div>
+                            </div>
+                            <div class="comments__text">Mi sembra una truffa</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Può pensare quello che vuole, ma con l'aiuto di "Reduslim" hanno già perso peso migliaia di persone, senza sforzi e senza danni alla salute!</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm10.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Stefania Galgano</div>
+                            </div>
+                            <div class="comments__text">Mi ha aiutato, sono felicissima. Grazie Alessandro, ho perso 20 kg. Seconde Lei, può usarlo anche mio marito?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Sono molte felice per Lei. Sono sicuro che aiuterà anche Suo marito.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm11.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Viola Miccolis</div>
+                            </div>
+                            <div class="comments__text">Buon risultato. L'età è importante?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">No, visto che è completamente naturale e non ha controindicazioni, l'età non è importante. Con Reduslim si può dimagrire a qualsiasi età.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm12.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Imma Petrone</div>
+                            </div>
+                            <div class="comments__text">Si può ordinare solo online?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Se vuole essere sicuro della qualità e risparmiare - sì.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm13.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Marisa Tagariello</div>
+                            </div>
+                            <div class="comments__text">Quanto tempo ci vuole per ricevere l’ordine?</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Circa 3-5 giorni. Tra l'altro non si chiede nessun pagamento anticipato. Può pagare direttamente al corriere al momento della ricezione del Suo ordine.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                        <div class="comments__client">
+                            <div class="comments__profile">
+                                <div class="comments__image">
+                                    <img src="assets/img/comm14.jpg" alt="">
+                                </div>
+                                <div class="comments__name">Elena Mastromarino</div>
+                            </div>
+                            <div class="comments__text">Non riesco a seguire una dieta per più di 3-4 giorni, è una terribile sofferenza. Peccato che ho scoperto "Reduslim" solo ora, ho già fatto la liposuzione.</div>
+                        </div>
+                        <div class="comments__dr">
+                            <div class="comments__dr-content">
+                                <div class="comments__profile">
+                                    <div class="comments__image">
+                                        <img src="assets/img/comm_doc.jpg" alt="">
+                                    </div>
+                                    <div class="comments__name">Alessandro Bianco</div>
+                                </div>
+                                <div class="comments__text">Mi dispiace... se avesse atteso un po' di più, avrebbe sicuramente risparmiato un bel po' di soldi. La liposuzione è una soluzione molto costosa... ed è anche molto stressante per l'organismo.</div>
+                            </div>
+                        </div>
+                        <!-- ====================== -->
+                    </div>
+                </div>
+            </div>
+
+            <select name="country" style="display:none;"></select>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+            <script src="js/pixel.js"></script>
+
+
+            <!-- Скрипт для якоря к форме -->
+            <script>
+                $("a").addClass('to_form');
+            </script>
+            <!-- Перед ФОРМОЙ обязательно создайте <div> и добавьте к нему id="#form" -->
+            <script>
+                $(".to_form").on("touchend, click", function(e) {
+                    e.preventDefault();
+                    $('body,html').animate({
+                        scrollTop: $('#order_form').offset().top
+                    }, 400);
+                });
+            </script>
+            <!-- price.js- скрипт подключения цены, при необходимости скачайте его и удалите слеши и точки перед price.js (../../) -->
+            <script defer src="price.js"></script>
+
+
+            <script>
+                function randomSecond(min, max) {
+                    let rand = min - 0.5 + Math.random() * (max - min + 1);
+                    rand = Math.round(rand) * 1000;
+                    return rand;
+                }
+
+                function setStock(item) {
+                    let stockElements = document.getElementsByClassName('left-pack');
+                    for (let i = 0; i < stockElements.length; i++) {
+                        stockElements[i].innerHTML = item.toString();
+                    }
+                }
+
+                let currentStock;
+                currentStock = 43;
+                setStock(currentStock);
+                let interval = setInterval(function() {
+                    setStock(currentStock);
+                    localStorage.setItem('stock', currentStock);
+                    if (currentStock <= 7) {
+                        clearInterval(interval);
+                    } else {
+                        currentStock -= 1;
+                    }
+                }, randomSecond(2, 5));
+                let age = $.url().param('utm_term');
+                if (age) {
+                    $('.user-age').text(age);
+                }
+            </script>
+
+</body>
+
+</html>
