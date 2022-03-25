@@ -170,20 +170,25 @@ input {
     outline: 0;
 }
 
-.form__cost {
+.form__cost-block {
+    position: relative;
     text-align: center;
-    font-size: 40px;
-    margin: 5px 0;
+}
+
+label {
     text-transform: uppercase;
+}
+
+.form__cost {
+    font-size: 40px;
     text-decoration: line-through;
     font-style: italic;
     color: #778899;
 }
 
-.sale {
-    text-decoration: none;
+.form__sale {
     font-size: 46px;
-    font-weight: 1000;
+    font-weight: 900;
     font-style: normal;
     color: #003153;
 }
@@ -191,9 +196,6 @@ input {
 .button-submit {
     max-width: 500px;
     display: block;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 16px;
     background-color: #021859;
     color: #fff;
     border: 0;
@@ -204,6 +206,12 @@ input {
     margin-bottom: 10px;
     cursor: pointer;
     box-shadow: 0 2px 10px -1px rgba(0, 0, 0, .3), 0 4px 5px 0 rgba(0, 0, 0, .3), 0 1px 10px 0 rgba(0, 0, 0, .3);
+}
+
+.button-submit span {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
 }
 
 .button-submit:active {
