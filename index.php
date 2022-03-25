@@ -17,7 +17,6 @@
         rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-    <script src="js/questions.js"></script>
 
     <script>
         function fdateTwoDigits(d) {
@@ -441,13 +440,14 @@
         </div>
         <select name="country" style="display:none;"></select>
     </div>
+    <script src="js/generator.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="jquery-2.2.4.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
     <script src="js/pixel.js"></script>
-    <script defer src="price.js"></script>
-    <script src="js/generator.js"></script>
-    <script src="jquery-2.2.4.min.js"></script>
 
 
     <script>
@@ -490,6 +490,7 @@
             }, 400);
         });
     </script>
+    <script defer src="price.js"></script>
 
 </body>
 
