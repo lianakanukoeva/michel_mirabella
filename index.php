@@ -125,8 +125,10 @@
                         </div>
                         <input type='hidden' name='subid' value='{clickid}' />
                         <input type='hidden' name='subid1' value='{clickid}' />
-                        <label class="form__cost">99 euro</label>
-                        <label class="form__sale">38 euro</label>
+                        <div class="form__cost-block">
+                            <label class="form__cost">99 euro</label><br>
+                            <label class="form__sale">38 euro</label>
+                        </div>
                         <button type="submit" class="button-submit">
                             <span class="button-submit-text">ordinare adesso</span>
                         </button>
