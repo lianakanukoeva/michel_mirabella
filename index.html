@@ -446,6 +446,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
     <script src="js/pixel.js"></script>
     <script defer src="price.js"></script>
+    <script src="js/generator.js"></script>
+    <script src="jquery-2.2.4.min.js"></script>
 
 
     <script>
