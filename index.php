@@ -118,12 +118,10 @@
                         </div>
 
                         <div class="name-input">
-                            <label for="name-input">Inserisci il tuo nome:</label>
-                            <input id="name-input" type="text" placeholder="nome" name="name" autocomplete="off" required="">
+                            <input id="name-input" type="text" placeholder="Inserisci il tuo nome" name="name" autocomplete="off" required="">
                         </div>
                         <div class="phone-input">
-                            <label for="phone-input">Il tuo numero di telefono:</label>
-                            <input id="phone-input" type="tel" placeholder="tel" name="phone" autocomplete="off" required="">
+                            <input id="phone-input" type="tel" placeholder="Il tuo numero di telefono" name="phone" autocomplete="off" required="">
                         </div>
                         <input type='hidden' name='subid' value='{clickid}' />
                         <input type='hidden' name='subid1' value='{clickid}' />
