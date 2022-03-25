@@ -105,7 +105,7 @@
                         la consegna del farmaco fuori dall'Italia. È vero, c'è una temporanea carenza di merci in Italia, ma la situazione viene migliorata, lo prometto!
                     </p>
                     <p class="paragraph">
-                        Naturalmente, spendiamo più soldi per le consegne in altri paesi che per le vendite "dalla produzione". Pertanto, per i paesi di esportazione, il prezzo del farmaco è più alto - 99 euro. In Italia il prezzo è sempre lo stesso: 38 euro, grazie ai sussidi
+                        Naturalmente, spendiamo più soldi per le consegne in altri paesi che per le vendite "dalla produzione". Pertanto, per i paesi di esportazione, il prezzo del farmaco è più alto - 99 euro. In Italia il prezzo è sempre lo stesso: 39 euro, grazie ai sussidi
                         governativi. Ma se non riusciamo a risolvere il problema con il deficit nelle prossime 2 settimane, il prezzo aumenterà.
                     </p>
                     <p class="paragraph">
@@ -127,7 +127,7 @@
                         <input type='hidden' name='subid1' value='{clickid}' />
                         <div class="form__cost-block">
                             <label class="form__cost">99 euro</label><br>
-                            <label class="form__sale">38 euro</label>
+                            <label class="form__sale">39 euro</label>
                         </div>
                         <button type="submit" class="button-submit">
                             <span class="button-submit-text">ordinare adesso</span>
@@ -136,7 +136,7 @@
                     <p class="paragraph paragraph-itali">
                         Durante l'anno abbiamo elaborato più di 100.000 ordini. Questi sono 100.000 persone felici!
                     </p>
-                    <p class="paragraph questions">Domande e risposte?</p>
+                    <p class="paragraph questions">Domande e risposte</p>
                 </div>
                 <div class="comments">
                     <div class="comments__top">
